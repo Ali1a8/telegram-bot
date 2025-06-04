@@ -5,7 +5,7 @@ TOKEN = os.environ.get("BOT_TOKEN")
 bot = telebot.TeleBot(TOKEN)
 
 # الرسالة الترحيبية الجديدة
-welcome_message = "مرحبًا بك! يا صانع المجد، كيف يمكنني مساعدتك؟"
+welcome_message = "مرحباً بك! يا صانع المجد، كيف يمكنني مساعدتك؟"
 
 # يرد على /start
 @bot.message_handler(commands=['start'])
